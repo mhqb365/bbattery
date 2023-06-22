@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "bBattery",
+      name: "bbattery",
       script: "./index.js",
     },
   ],
