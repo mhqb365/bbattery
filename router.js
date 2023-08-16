@@ -10,9 +10,4 @@ router.get("/win", async (req, res, next) => {
   res.send(stringBuf);
 });
 
-router.get("/mac", async (req, res, next) => {
-  const bBatteryMacScript = `a=$(ioreg -l -w0 | grep Capacity) && echo $a > a.xml`;
-  res.send(bBatteryMacScript);
-});
-
 module.exports = router;

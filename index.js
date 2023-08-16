@@ -7,5 +7,5 @@ app.use(express.static("public"));
 app.use("/", router);
 
 app.listen(port, () => {
-  console.log(`bbattery run at ${port}`);
+  console.log(`bbattery run at port ${port}`);
 });
