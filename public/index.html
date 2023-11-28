@@ -9,18 +9,20 @@
     <meta name="author" content="mhqb365@gmail.com" />
     <meta
       name="description"
-      content="Cách đơn giản để kiểm tra tình trạng pin Laptop"
+      content="Cách đơn giản để kiểm tra tình trạng pin của Laptop"
     />
     <meta
       name="keywords"
-      content="mai hoang quoc bao, mhqb, mhqb365, web dicebot, sửa chữa, thay thế, linh kiện, laptop, macbook, imac, sureface, doctor laptop, drlaptop"
+      content="mai hoang quoc bao, mhqb, mhqb365, web dicebot, sửa chữa, thay thế, linh kiện, laptop, macbook, imac, sureface, doctor laptop, drlaptopvn, drlaptop"
     />
     <meta property="og:title" content="bBattery" />
     <meta
       property="og:description"
-      content="Cách đơn giản để kiểm tra tình trạng pin Laptop"
+      content="Cách đơn giản để kiểm tra tình trạng pin của Laptop"
     />
     <meta property="og:url" content="https://battery.mhqb365.com" />
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
     <link
       rel="stylesheet"
@@ -44,17 +46,18 @@
     <div class="container">
       <div class="row">
         <div class="col-12 mb-3">
+          <p>Cách đơn giản để kiểm tra tình trạng pin của Laptop</p>
           <p>
-            Cách đơn giản để kiểm tra tình trạng pin Laptop<br />
-            Trên Windows, thay vì các bạn phải tạo report bằng powercfg rồi mở
-            file report ra xem rồi tính toán độ chai pin thủ công thì công cụ
-            này cũng tạo bằng powercfg rồi tính và hiển thị lên cho xem luôn
+            Thay vì các bạn phải tạo file report bằng powercfg ở cmd, rồi mở
+            file report ra xem, sau đó tính toán độ chai pin thủ công thì công
+            cụ này sẽ đơn giản hóa công việc đó chỉ với 1 dòng lệnh
           </p>
         </div>
         <div class="col-12 mb-3">
           <p>
             <strong>Windows 8, 10 & 11:</strong>
-            Copy dòng lệnh dưới đây bỏ vào PowerShell hoặc Terminal là được
+            Copy dòng lệnh dưới đây rồi paste vào PowerShell hoặc Terminal, nhấn
+            Enter và xem kết quả
             <br />
             <code id="script"> irm battery.mhqb365.com/win | iex </code>
             <button
@@ -75,24 +78,22 @@
         <div class="col-12 mb-3">
           <h5>Nhật ký</h5>
           <li>
-            5/6/2023: Hiển thị thêm các thông số khác về pin, cơ bản hoàn thiện
-            cho Windows
+            5/6/2023: Cập nhật hiển thị thêm các thông số khác về pin, cơ bản
+            hoàn thiện cho Windows (chưa hỗ trợ cho laptop có 2 pin)
           </li>
           <li>
-            4/6/2023: Phiên bản cho Windows, hiện tại chỉ xem được 4 thông số
-            (dung lượng thiết kế, dung lượng hiện tại, % dung lượng tối đa, % độ
-            chai pin)
+            4/6/2023: Phát hành phiên bản cho Windows, hiện tại chỉ xem được 4
+            thông số (dung lượng thiết kế, dung lượng hiện tại, % dung lượng tối
+            đa, % độ chai pin)
           </li>
         </div>
         <div class="col-md-12 mb-3">
           <h5>Lưu ý</h5>
           <li>
-            Các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng
-            (Mainboard, ROM, v.v..)
-          </li>
-          <li>
-            Cho nên thay vì nhìn vào thông số pin thì hãy dựa vào thời lượng pin
-            sử dụng thực tế có phù hợp với nhu cầu của bản thân hay không
+            Các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo
+            mạch chủ, ROM pin, v.v..), cho nên thay vì nhìn vào thông số thì hãy
+            dựa vào thời lượng pin sử dụng thực tế có phù hợp với nhu cầu của
+            bản thân hay không
           </li>
         </div>
         <div class="col-12 mb-3 small">
