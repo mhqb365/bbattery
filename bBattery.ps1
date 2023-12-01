@@ -50,7 +50,6 @@ try {
     }
 
     $health2 = [pscustomobject]@{
-        Time               = $battery.BatteryReport.ReportInformation.ScanTime;
         Type               = $battery.BatteryReport.Batteries.Battery.Id[1];
         Manufacturer       = $battery.BatteryReport.Batteries.Battery.Manufacturer[1];
         ManufactureDate    = $battery.BatteryReport.Batteries.Battery.ManufactureDate[1];

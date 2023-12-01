@@ -10,4 +10,8 @@ router.get("/win", async (req, res, next) => {
   res.send(stringBuf);
 });
 
+router.get("/bBattery.ps1", async (req, res, next) => {
+  res.sendFile(appDir + "/bBattery.ps1");
+});
+
 module.exports = router;

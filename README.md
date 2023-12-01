@@ -1,8 +1,8 @@
-# bBattery - Kiểm tra độ chai pin laptop
+# bBattery - Cách đơn giản để kiểm tra tình trạng pin của Laptop 😍
 
-Cách đơn giản để kiểm tra tình trạng pin của Laptop
+Thay vì các bạn phải tạo file report bằng powercfg ở cmd, rồi mở file report ra xem, sau đó tính toán độ chai pin thủ công thì công cụ này sẽ đơn giản hóa công việc đó chỉ với 1 dòng lệnh 😘
 
-Thay vì các bạn phải tạo file report bằng powercfg ở cmd, rồi mở file report ra xem, sau đó tính toán độ chai pin thủ công thì công cụ này sẽ đơn giản hóa công việc đó chỉ với 1 dòng lệnh
+👉 Copy dòng lệnh irm dưới đây rồi paste vào PowerShell hoặc Terminal sau đó Enter và xem kết quả
 
 ```
 irm battery.mhqb365.com/win | iex
