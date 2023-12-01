@@ -1,4 +1,4 @@
-# bBattery - Cách đơn giản để kiểm tra tình trạng pin của Laptop 😍
+# Cách đơn giản để kiểm tra tình trạng pin của Laptop 😍
 
 Thay vì các bạn phải tạo file report bằng powercfg ở cmd, rồi mở file report ra xem, sau đó tính toán độ chai pin thủ công thì công cụ này sẽ đơn giản hóa công việc đó chỉ với 1 dòng lệnh 😘
 
