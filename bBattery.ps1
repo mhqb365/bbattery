@@ -1,10 +1,11 @@
+powercfg /batteryreport /xml /output ./batteryreport.xml
+
 Write-Host ""
 Write-Host "bBattery - github.com/mhqb365/bbattery"
-$formattedTime = (Get-Date -Format "HH:mm dd/MM/yyyy")
-Write-Host "Thoi gian kiem tra: $formattedTime"
 Write-Host ""
+$formattedTime = (Get-Date -Format "HH:mm dd/MM/yyyy")
+Write-Host "ThoiGianKiemTra $formattedTime"
 
-powercfg /batteryreport /xml /output ./batteryreport.xml
 
 $battery = [xml](Get-Content ./batteryreport.xml)
 
@@ -43,10 +44,10 @@ function Display-BatteryHealth {
     foreach ($health in $HealthData) {
         $table += [pscustomobject]@{
             STT              = "Battery $index"
-            SoLanSac       = "$($health.CycleCount)"
-            DungLuongBanDau   = "$($health.DesignCapacity) mWh"
+            SoLanSac         = "$($health.CycleCount)"
+            DungLuongBanDau  = "$($health.DesignCapacity) mWh"
             DungLuongConLai  = "$($health.FullChargeCapacity) mWh"
-            DoChaiPin = "$($health.BatteryWearLevel)%"
+            DoChaiPin        = "$($health.BatteryWearLevel)%"
         }
         $index++
     }
