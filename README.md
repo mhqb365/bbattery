@@ -24,7 +24,7 @@ Kết quả
 
 Giải thích
 
-```STT```: số thứ tự pin, đa số máy tính có 1 pin, nhưng vài trường hợp đặt biệt có từ 2 pin (Surface Book, Lenovo T480, v.v..)
+```STT```: số thứ tự pin, vài trường hợp đặt biệt máy tính có từ 2 pin (Surface Book, Lenovo T480, v.v..)
 
 ```SoLanSac```: số lần sạc / chu kỳ sạc (Cycle Count)
 
