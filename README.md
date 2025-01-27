@@ -30,8 +30,8 @@ Giải thích
 
 ```DungLuongBanDau```: dung lượng ban đầu của pin (Design Capacity)
 
-```DungLuongConLai```: dung lượng hiện tại mà pin lưu trữ được khi sạc đầy (Full Charge Capacity), số này sẽ giảm theo thời gian
+```DungLuongConLai```: dung lượng hiện tại mà pin lưu trữ được khi sạc đầy (Full Charge Capacity)
 
-```DoChaiPin```: độ chai của pin (Battery Wear Level), bằng cách tính % của dung lượng hiện tại so với dung lượng ban đầu của pin
+```DoChaiPin```: độ chai của pin (Battery Wear Level)
 
 Lưu ý: các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo mạch máy tính & ROM pin). Với tui thì các thông số trên chỉ mang tính tham khảo, tui thường nhìn vào thời gian sử dụng được sau khi sạc đầy để đánh giá pin
