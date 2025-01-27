@@ -18,6 +18,20 @@ Hoặc copy dòng lệnh này, paste vào Command Prompt rồi Enter và xem k�
 powershell iex (irm j2c.cc/batterycheck)
 ```
 
-Các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo mạch chủ máy tính & ROM pin). Với tui thì các thông số trên chỉ mang tính tham khảo, tui thường nhìn vào thời gian sử dụng được sau khi sạc đầy để đánh giá pin
+Kết quả
 
-From [mhqb365.com](https://mhqb365.com) with ❤️
+<img src="./bBattery.png" />
+
+Giải thích
+
+```STT```: số thứ tự pin, đa số máy tính có 1 pin, nhưng vài trường hợp đặt biệt có từ 2 pin (Surface Book, Lenovo T480, v.v..)
+
+```SoLanSac```: số lần sạc / chu kỳ sạc (Cycle Count)
+
+```DungLuongBanDau```: dung lượng ban đầu của pin (Design Capacity)
+
+```DungLuongConLai```: dung lượng hiện tại mà pin lưu trữ được khi sạc đầy (Full Charge Capacity), số này sẽ giảm theo thời gian
+
+```DoChaiPin```: độ chai của pin (Battery Wear Level), bằng cách tính % của dung lượng hiện tại so với dung lượng ban đầu của pin
+
+Lưu ý: các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo mạch máy tính & ROM pin). Với tui thì các thông số trên chỉ mang tính tham khảo, tui thường nhìn vào thời gian sử dụng được sau khi sạc đầy để đánh giá pin
