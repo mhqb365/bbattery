@@ -34,4 +34,6 @@ Giải thích
 
 ```DoChaiPin```: độ chai của pin (Battery Wear Level)
 
-Lưu ý: các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo mạch máy tính & ROM pin). Với tui thì các thông số trên chỉ mang tính tham khảo, tui thường nhìn vào thời gian sử dụng được sau khi sạc đầy để đánh giá pin
+Lưu ý: các thông số hiển thị chịu ảnh hưởng bởi các yếu tố phần cứng (bo mạch máy tính & ROM pin). Với tui thì các thông số trên chỉ mang tính tham khảo, tui thường nhìn vào thời gian sử dụng được sau khi sạc đầy để đánh giá pin. GoodLuck!
+
+Made with Love ❤️
