@@ -26,7 +26,7 @@ Giải thích
 
 ```STT```: số thứ tự pin, vài trường hợp đặt biệt máy tính có từ 2 pin (Surface Book, Lenovo T480, v.v..)
 
-```SoLanSac```: số lần sạc / chu kỳ sạc (Cycle Count)
+```ChuKySac```: chu kỳ sạc (Cycle Count)
 
 ```DungLuongBanDau```: dung lượng ban đầu của pin (Design Capacity)
 

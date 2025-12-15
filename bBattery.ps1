@@ -44,7 +44,7 @@ function Display-BatteryHealth {
     foreach ($health in $HealthData) {
         $table += [pscustomobject]@{
             STT              = "Battery $index"
-            SoLanSac         = "$($health.CycleCount)"
+            ChuKySac         = "$($health.CycleCount)"
             DungLuongBanDau  = "$($health.DesignCapacity) mWh"
             DungLuongConLai  = "$($health.FullChargeCapacity) mWh"
             DoChaiPin        = "$($health.BatteryWearLevel)%"
